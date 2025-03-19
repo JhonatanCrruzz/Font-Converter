@@ -22,7 +22,7 @@ El script realiza las siguientes acciones:
 ## Uso
 1. Asegúrate de tener Python instalado en tu máquina.
 2. Instala las dependencias necesarias:
-  **`pip install fonttools`**
+   `pip install fonttools`
 4. Ejecuta el script:
   python convertir_fuentes.py
 5. Ingresa la ruta de la carpeta que contiene los archivos .ttf cuando se te solicite. El script convertirá todos los archivos .ttf en esa carpeta a .woff2 y eliminará los archivos .ttf originales.
