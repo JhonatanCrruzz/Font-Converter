@@ -6,10 +6,8 @@ Este proyecto es un script en Python que convierte fuentes en formato **TTF** a 
 
 - Python 3.x
 - La librería **fontTools** para la manipulación de fuentes. Puedes instalarla usando pip:
-
   ```bash
   pip install fonttools
-
 
 ## ¿Cómo funciona?
 El script realiza las siguientes acciones:
@@ -22,25 +20,26 @@ El script realiza las siguientes acciones:
 ## Uso
 1. Asegúrate de tener Python instalado en tu máquina.
 2. Instala las dependencias necesarias:
-   `pip install fonttools`
-4. Ejecuta el script:
-  python convertir_fuentes.py
+  ```bash
+   pip install fonttools
+```
+4. Ejecuta el script: `python convertir_fuentes.py`.
 5. Ingresa la ruta de la carpeta que contiene los archivos .ttf cuando se te solicite. El script convertirá todos los archivos .ttf en esa carpeta a .woff2 y eliminará los archivos .ttf originales.
 
 Ejemplo de salida:
- **`
+  ```bash
   Ingresa la ruta de la carpeta con las fuentes .ttf: /ruta/a/mi/carpeta
   Convertido fuente1.ttf a fuente1.woff2
   Archivo eliminado: fuente1.ttf
   Convertido fuente2.ttf a fuente2.woff2
   Archivo eliminado: fuente2.ttf
-  `**
+```
 
 
-Consideraciones
+###Consideraciones
 - Este script solo convierte archivos .ttf que se encuentren en la carpeta especificada.
 - Los archivos .woff2 generados se almacenan en la misma carpeta donde están los archivos .ttf.
 - Los archivos .ttf se eliminan después de la conversión exitosa. Si prefieres conservar los archivos .ttf, puedes eliminar o modificar la línea os.remove(archivo_ttf).
 
-Contribución
+###Contribución
 Si deseas contribuir a este proyecto, siéntete libre de hacer un fork y enviar un pull request. ¡Cualquier mejora es bienvenida!
