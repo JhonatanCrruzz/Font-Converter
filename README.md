@@ -26,7 +26,7 @@ El script realiza las siguientes acciones:
 4. Ejecuta el script: `python convertir_fuentes.py`.
 5. Ingresa la ruta de la carpeta que contiene los archivos `.ttf` cuando se te solicite. El script convertirá todos los archivos `.ttf` en esa carpeta a `.woff2` y eliminará los archivos `.ttf` originales.
 
-Ejemplo de salida:
+### Ejemplo de salida
   ```bash
   Ingresa la ruta de la carpeta con las fuentes .ttf: /ruta/a/mi/carpeta
   Convertido fuente1.ttf a fuente1.woff2
