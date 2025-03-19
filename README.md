@@ -36,10 +36,10 @@ Ejemplo de salida:
 ```
 
 
-##Consideraciones
+### Consideraciones
 - Este script solo convierte archivos .ttf que se encuentren en la carpeta especificada.
 - Los archivos `.woff2` generados se almacenan en la misma carpeta donde están los archivos `.ttf`.
 - Los archivos `.ttf` se eliminan después de la conversión exitosa. Si prefieres conservar los archivos `.ttf`, puedes eliminar o modificar la línea `os.remove(archivo_ttf)`.
 
-##Contribución
+### Contribución
 Si deseas contribuir a este proyecto, siéntete libre de hacer un fork y enviar un pull request. ¡Cualquier mejora es bienvenida!
