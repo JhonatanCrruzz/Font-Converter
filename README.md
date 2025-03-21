@@ -57,12 +57,15 @@ If you'd like to improve this project, any contribution is welcome!
 ```bash
    git checkout -b mi-nueva-funcionalidad
 ```
+
 3. Make your improvements and commit:
 ```bash
    git commit -m "Agregada nueva funcionalidad"
 ```
+
 4.Upgrade the gears:
 ```bash
   git push origin mi-nueva-funcionalidad
 ```
+
 5. Create a pull request explaining your changes.
