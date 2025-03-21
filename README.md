@@ -29,8 +29,8 @@ The script performs the following actions:
 ```bash
 pip install fonttools
 ```
-4. Run the script: `python convert_fonts.py`.
-5. Enter the path to the folder containing the `.ttf` files when prompted. The script will convert all `.ttf` files in that folder to `.woff2` and delete the original `.ttf` files.
+3. Run the script: `python convert_fonts.py`.
+4. Enter the path to the folder containing the `.ttf` files when prompted. The script will convert all `.ttf` files in that folder to `.woff2` and delete the original `.ttf` files.
    
 ### 📟 Output example
   ```bash
