@@ -63,7 +63,7 @@ If you'd like to improve this project, any contribution is welcome!
    git commit -m "Agregada nueva funcionalidad"
 ```
 
-4.Upgrade the gears:
+4. Upgrade the gears:
 ```bash
   git push origin mi-nueva-funcionalidad
 ```
